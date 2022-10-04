@@ -1,7 +1,7 @@
 import arcade
 
 
-my_window = arcade.open_window(650,600, "First Window Demo UwU")
+my_window = arcade.open_window(650,600, "Pac-man Abducts a Cow")
 
 arcade.set_background_color(arcade.color.ARMY_GREEN)
 
