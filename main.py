@@ -10,7 +10,7 @@ arcade.set_background_color(arcade.color.ARMY_GREEN)
 # arcade.color.
 arcade.start_render()
 arcade.draw_xywh_rectangle_filled(0,400, 650, 250,
-                                  arcade.color.BLACK,)
+                                  arcade.color.EERIE_BLACK,)
 
 
 
@@ -24,6 +24,10 @@ arcade.draw_circle_filled(200, 462, 19,
 #the above circles were wheels for a car but became edges of the ufo
 arcade.draw_lrtb_rectangle_filled (200,379,480,443,
                                    arcade.color.BUFF)
+arcade.draw_line (240, 40, 240, 160,
+                  arcade.color.DIRT, 30)
+arcade.draw_line (0, 20, 650, 20,
+                  arcade.color.BLACK, 40)
 #THE FOLLOWING YELLOW OUTLINE IS THE SUPER AMAZING TRACTOR BEAM THAT TOOK FAR TOO LONG TO CENTER.
 # DO NOT MOVE IT!!!
 arcade.draw_triangle_outline(40, 110, 290, 440, 590, 100,
@@ -83,9 +87,10 @@ arcade.draw_circle_filled(385, 284, 2,
 
 
 
+
 arcade.draw_circle_filled(590, 545, 50,
                            arcade.color.GHOST_WHITE,)
-arcade.draw_text("Nathan L Aguiar", 450,50)
+arcade.draw_text("Nathan L Aguiar", 450,15)
 
 
 
