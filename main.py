@@ -57,8 +57,7 @@ arcade.draw_line (376, 273, 375, 260,
 arcade.draw_line (365, 273, 360, 260,
                   arcade.color.BLACK, 2)
 #B
-arcade.draw_line (375, 280, 382, 280,
-                  arcade.color.GHOST_WHITE, 2)
+
 arcade.draw_triangle_filled(378, 289, 381, 294, 383, 289,
                             arcade.color.BLACK, )
 arcade.draw_circle_filled(380, 285, 5,
